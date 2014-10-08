@@ -4,9 +4,8 @@
 */
 class Admin extends Controller
 {
-	
 	public function index()
 	{
-		# code...
+		$this->view('admin/index', []);
 	}
 }
